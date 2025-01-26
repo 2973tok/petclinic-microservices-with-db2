@@ -39,7 +39,7 @@
   - name: Add ubuntu to docker group
     user:
       name: ubuntu
-      group: docker
+      group: docker 
 
   - name: Restart docker and enable
     service:
